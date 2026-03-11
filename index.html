@@ -3,57 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vaithiyamanickam Portfolio</title>
+    <title>Vaithiyamanickam B | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Vaithiyamanickam</h1>
-        <p>QA LEAD | Cloud Enthusiast</p>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+    <nav>
+        <div class="logo">VB.</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1 data-aos="fade-down">Vaithiyamanickam B</h1>
+        <p data-aos="fade-up" data-aos-delay="200">Technical Lead Test Engineer</p>
+        <div class="stats-container" data-aos="zoom-in">
+            <div class="stat-item">
+                <span class="count">2500+</span>
+                <p>Bugs Found</p>
+            </div>
+            <div class="stat-item">
+                <span class="count">7+</span>
+                <p>Years XP</p>
+            </div>
+        </div>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I am a QA Tech Lead and working on cloud technologies. I test mobile apps, web application, and interactive projects.</p>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <h3>Project 1</h3>
-                <p>Interview maker - Mobile Automation.</p>
-                <a href="#" class="btn">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>Project 2</h3>
-                <p>PLZCOME - Party Planner App</p>
-                <a href="#" class="btn">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>Project 3</h3>
-                <p>HearzApp - App</p>
-                <a href="#" class="btn">View Project</a>
-            </div>
+    <section id="skills" class="skills">
+        <h2 data-aos="fade-right">Cloud & Automation Stack</h2>
+        <div class="skill-grid">
+            <div class="skill-card" data-aos="flip-left">AWS / Azure</div>
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="100">Selenium</div>
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="200">Appium</div>
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:vaithi.qa@gmail.com">vaithi.qa@gmail.com</a></p>
-        <p>LinkedIn: <a href="#">linkedin.com/in/vaithiyamanickam</a></p>
-        <p>GitHub: <a href="#">github.com/VAITHIYAMANICKAM</a></p>
-    </section>
-
-    <footer>
-        <p>© 2026 Vaithiyamanickam</p>
-    </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
